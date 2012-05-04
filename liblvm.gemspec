@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/malachheb/liblvm"
   s.extensions = ["ext/extconf.rb"]
   s.extra_rdoc_files = ["README.md"]
-  s.files = ["README.md", "ext/extconf.rb", "ext/liblvm.c","lib/"]
+  s.files = ["README.md", "ext/extconf.rb", "ext/liblvm.c","lib/", "lib/liblvm.rb"]
   s.homepage = %q{}
   s.require_paths = [["lib"]]
   s.rubygems_version = %q{1.3.6}
