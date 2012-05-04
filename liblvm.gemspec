@@ -10,9 +10,10 @@ Gem::Specification.new do |s|
   s.default_executable = %q{liblvm}
   s.description = %q{liblvm is a ruby gem to use the linux library liblvm2 in ruby}
   s.email = %q{lachheb.mehrez@gmail.com}
+  s.homepage = "https://github.com/malachheb/liblvm"
   s.extensions = ["ext/extconf.rb"]
-  s.extra_rdoc_files = ["README.rdoc"]
-  s.files = ["README.rdoc", "ext/extconf.rb", "ext/liblvm.c","lib/"]
+  s.extra_rdoc_files = ["README.md"]
+  s.files = ["README.md", "ext/extconf.rb", "ext/liblvm.c","lib/"]
   s.homepage = %q{}
   s.require_paths = [["lib"]]
   s.rubygems_version = %q{1.3.6}
