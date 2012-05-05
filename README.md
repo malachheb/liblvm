@@ -24,7 +24,7 @@ gem  install liblvm
 Before you should create your VG. The constructor take the VG name as argument
 
 ```ruby
-lvm = Linuxlvm.new('G5K_VG')
+lvm = Linuxlvm.new('TEST_VG')
 ```
 
 * Get the lvm version 
